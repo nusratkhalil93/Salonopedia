@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".CtgParlourListActivity">
+
+    <LinearLayout
+        android:id="@+id/layout10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="68dp"
+        android:background="@android:drawable/zoom_plate"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_buffet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/menuitem_background"
+            android:text="beauty buffet"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="170dp"
+        android:background="@android:drawable/zoom_plate"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_allure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/menuitem_background"
+            android:text="allure beauty parlour"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="215dp"
+        android:background="@android:drawable/zoom_plate"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_touch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/menuitem_background"
+            android:text="touch and glow"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="98dp"
+        android:background="@android:drawable/zoom_plate"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_art"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/menuitem_background"
+            android:text="Art and Beauty Salon"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</RelativeLayout>
